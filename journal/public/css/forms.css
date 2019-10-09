@@ -1,0 +1,23 @@
+
+.form-container {
+	padding-top: 1.2em;
+}
+
+.form-title {
+	margin-bottom: 1em;
+}
+
+.add-post-form {
+	width: 100%;
+}
+
+.add-post-form label {
+	font-weight: bold;
+}
+
+.add-post-form button {
+	margin: auto;
+	display: flex;
+	align-self: center;
+}
+

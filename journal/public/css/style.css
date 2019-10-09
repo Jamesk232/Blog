@@ -1,0 +1,140 @@
+/*global*/
+a {
+	color: #000;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+
+/*nav bar*/
+.navbar-nav {
+	width: 40%;
+	margin: auto;
+	justify-content: space-around;
+}
+
+.nav-item {
+	margin: auto;
+}
+
+/*jumbotron*/
+.jumbotron {
+	background: url("https://source.unsplash.com/pt0Q8d3kvW8");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 50vh;
+	max-width: 1100px;
+	margin: auto;
+}
+
+.jumbotron .container {
+	width: 100%;
+	height: 50vh;
+}
+
+
+/*index page post column*/
+.posts-container {
+	padding: 0;
+}
+
+.featured-post {
+	width: 95%;
+	margin: 1.5em auto 2em;
+}
+
+.featured-post-img {
+	position: relative;
+	padding-top: 56.25%;
+	overflow: hidden;
+}
+
+
+.featured-post-img img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: auto;
+}
+
+.featured-post-img img:hover, .post-image img:hover {
+	opacity: 0.8;
+}
+
+/*posts wrapper*/
+
+.posts-wrapper {
+	justify-content: space-around;
+	padding: 0;
+}
+
+.post-link {
+	width: 45%;
+	margin-bottom: 1em;
+	padding-bottom: 5px;
+	background-color: #f4f4f4;
+/*	box-shadow: 0 1px 0 #dbc3d0;*/
+}
+
+.post {
+	padding-bottom: 5px;
+}
+
+.post-image {
+	width: 97%;
+	margin: auto;
+	padding-top: 5px;
+}
+
+.post-image img {
+	max-width: 100%;
+	height: auto;
+}
+
+.post-title, .post-date, .post-summary {
+	padding: 5px;
+}
+
+/*about me column*/
+.about-container {
+	margin: 1.5em 0;
+}
+
+.about-title, .about-img, .about-name, .about-text {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+.about-img img {
+	max-width: 100%;
+	height: auto;
+}
+
+.about-social {
+	width: 40%;
+	margin: 0 auto;
+	display: flex;
+	line-height: 2em;
+	justify-content: space-around;
+	border: 1px solid black;
+	background-color: #f4f4f4;
+}
+
+/*footer*/
+
+.footer {
+	width: 100%;
+	align-items: center;
+}
+
+.footer-social {
+	width: 20%;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+}
