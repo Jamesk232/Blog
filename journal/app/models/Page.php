@@ -14,4 +14,11 @@ class Page {
 		$results = $this->db->allRows();
 		return $results;
 	}
+
+	public function getAllImages(){
+		$this->db->query("SELECT image FROM gallery");
+		$allImages = $this->db->allRows();
+
+		return $allImages;
+	}
 }

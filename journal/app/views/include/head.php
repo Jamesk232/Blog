@@ -15,8 +15,10 @@
     <link rel="stylesheet" type="text/css" href="<?php echo URLROOT;?>/css/style.css">
     <link rel="stylesheet" type="text/css" href="<?php echo URLROOT;?>/css/forms.css">
     <link rel="stylesheet" type="text/css" href="<?php echo URLROOT;?>/css/posts.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo URLROOT;?>/css/gallery.css">
 
-    <title>Hello, world!</title>
+
+    <title>kblog</title>
   </head>
   <body>
 

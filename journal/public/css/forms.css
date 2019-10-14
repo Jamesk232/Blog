@@ -1,13 +1,18 @@
 
 .form-container {
 	padding-top: 1.2em;
+	min-height: 100vh;
 }
 
 .form-title {
 	margin-bottom: 1em;
 }
 
-.add-post-form {
+.form-group label {
+	font-weight: bold;
+}
+
+.add-post-form, .edit-post-form {
 	width: 100%;
 }
 
@@ -21,3 +26,11 @@
 	align-self: center;
 }
 
+.error-reporting {
+	color: red;
+}
+
+.register-form, .login-form {
+	max-width: 60%;
+	margin: auto;
+}

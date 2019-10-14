@@ -2,7 +2,7 @@
 
 
 	<div class="footer d-flex flex-column mt-3 pb-4">
-		<span style="color: rgba(0,0,0,0.6);">Home made by <a href="https://www.jameskcode.com" style="color: rgba(1,186,213,0.8);">jameskcode.com</a></span>
+		<span style="color: rgba(0,0,0,0.6);">Home made by <a href="https://www.jameskcode.com" style="color: rgba(1,186,213,0.8);">jameskcode.com</a> 2019</span>
 	</div>
 
     <!-- Optional JavaScript -->

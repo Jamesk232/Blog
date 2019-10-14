@@ -18,4 +18,14 @@ class Pages extends Controller {
 		$this->view("index", $data);
 	}
 
+	public function gallery(){
+		$allImages = $this->pagesModel->getAllImages();
+
+		$data = [
+			"images" => $allImages
+		];
+
+		$this->view("gallery", $data);
+	}
+
 }

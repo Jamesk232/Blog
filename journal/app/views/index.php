@@ -1,3 +1,4 @@
+<?php $data["banner-name"] = "index"; ?>
 <?php include "include/head.php"; ?>
 <?php include "include/nav.php"; ?>
 <?php include "include/banner.php"; ?>

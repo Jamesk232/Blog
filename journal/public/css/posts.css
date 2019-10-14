@@ -20,6 +20,13 @@
 	margin: auto;
 }
 
+.post-buttons {
+	margin: auto;
+}
+
+.post-buttons a {
+	margin-left: 20px;
+}
 
 .post-details-content {
 	margin: auto;
@@ -29,19 +36,19 @@
 
 
 @media(max-width: 768px){
-	.details-banner img, .post-details-content, .post-details-title, .date-span {
+	.details-banner img, .post-details-content, .post-details-title, .date-span, .post-buttons {
 		max-width: 100%;
 	}
 }
 
 @media(max-width: 1024px){
-	.details-banner img, .post-details-content, .post-details-title, .date-span {
+	.details-banner img, .post-details-content, .post-details-title, .date-span, .post-buttons {
 		max-width: 90%;
 	}
 }
 
 @media(min-width: 1025px){
-	.details-banner img, .post-details-content, .post-details-title, .date-span {
+	.details-banner img, .post-details-content, .post-details-title, .date-span, .post-buttons {
 		max-width: 70%;
 	}
 }
